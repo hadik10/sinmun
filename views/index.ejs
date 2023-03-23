@@ -105,10 +105,10 @@
   </head>
   <body>
     <header>
-      <h1>Drinks List</h1>
+      <h1>Sinmun Journal App</h1>
     </header>
     <div class="container">
-      <h2>List of Drinks</h2>
+      <h2>Past Journal Entries</h2>
       <ul>
         <% for (var i=0; i< drinkData.length; i++ ) { %>
           <li>
@@ -120,17 +120,17 @@
         <% } %>
       </ul>
 
-      <h2>Add a New Drink</h2>
+      <h2>Add New Journal Entry</h2>
       <form method="POST" action="/addDrink">
-        <label for="drink_name">Drink</label>
-            <input name="drink_name" value="new drink">
+        <label for="drink_name">Journal Date</label>
+            <input name="drink_name" value="Enter Today's Date">
         <br>
-        <label for="size">Size</label>
-          <input name="size" value="gallon"> 
+        <label for="size">Journal Contents</label>
+          <input name="size" value="Add Today's Journal Contents"> 
         <br>
-        <input type="submit" value="add drink" />
+        <input type="submit" value="Add Journal" />
     </form>
-    <h2>Update the size of the drink</h2>
+    <h2>Update The Contents of a Journal Entry</h2>
     <center>
       <% for (var i=0; i< drinkData.length; i++ ) { %>
         <form method="POST" action="/updateDrink/<%= drinkData[i]._id %>" style="display: inline-block">  

@@ -1,7 +1,7 @@
 # Neophytes
 # Sinmun journal app
 ## What kind of application is Sinmun?
-- Sinmun is a journal application that allows the user to take a small amount of their time to make a journal entry on how their day was.
+Sinmun is a journal application that allows the user to take a small amount of their time to make a journal entry on how their day was.
 ## Why use Sinmun?
  - Sinmun is unlike other journal apps. This is going to be a short journal, it will take no more than 4-5 minutes to make an entry for that day. <br>
  - Each journal entry will be at max 30 words or less. This means that it is a small summary of your day.<br>

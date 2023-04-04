@@ -1,5 +1,5 @@
 # Neophytes
-# What kind of application is Sinmun?
+<h1> What kind of application is Sinmun? </h1>
 # Sinmun is a journal application that allows the user to take a small amount of their time to make a journal entry on how their day was.
 # Why use Sinmun?
 # Sinmun is unlike other journal apps. This is going to be a short journal, it will take no more than 4-5 minutes to make an entry for that day.

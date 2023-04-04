@@ -18,3 +18,5 @@ Lets say you had a long day at work and you feel like making a note of how the w
 ### As someone who does not have much time
 ### I want a simple journal app
 ### So that I do not have to write a novel to describe my day
+
+#### Codepen link https://codepen.io/ashmcflash/full/dygbNPw

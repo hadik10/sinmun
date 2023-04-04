@@ -15,6 +15,6 @@ Lets say you had a long day at work and you feel like making a note of how the w
 -Sinmun also offers a topic for the user to answer or gives them the chance to document a certain aspect of the day using its slider function
 
 ## User Story
-As someone who does not have much time
-I want a simple journal app
-So that I do not have to write a novel to describe my day
+### As someone who does not have much time
+### I want a simple journal app
+### So that I do not have to write a novel to describe my day

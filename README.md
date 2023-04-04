@@ -2,6 +2,7 @@
 # Sinmun journal app
 ## Name Explained
 Sinmun is journal in Korean!
+Neophytes is used to describe someone new to a subject or skill!
 ## What kind of application is Sinmun?
 Sinmun is a journal application that allows the user to take a small amount of their time to make a journal entry on how their day was.
 ## Why use Sinmun?

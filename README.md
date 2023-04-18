@@ -1,5 +1,5 @@
 # Developer Team Name: Neophytes
-# Sinmun journal app 📖
+# Sinmun Journal App 📖
 ## Name Explained
 Sinmun is journal in Korean!
 Neophytes is used to describe someone new to a subject or skill!

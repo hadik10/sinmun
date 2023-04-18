@@ -25,4 +25,4 @@ What is the reason so many people don't keep a journal?<br>
 People say that the hardest part of keeping a journal is how it can be overwhelming and the second reason is always because it takes to much time.
 We created Sinmun to give keep people from being overwhelmed by shorteniing how much can be put into the journal to 30 words max.
 Then made it easy to keep track of your journaling and keep it from feeling to overwhelming.
-Using this simple layout<br> 
+Using a simple layout that gets straight to the point<br> 

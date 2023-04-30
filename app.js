@@ -11,7 +11,9 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 const client = new MongoClient(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 app.use(bodyParser.urlencoded({ extended: true }))
 app.set('view engine', 'ejs')
+app.use(express.static(__dirname + '/public'));
 
+let someVar = "";
 
 async function cxnDB(){
 
@@ -123,8 +125,9 @@ app.post('/updateDrink/:id', async (req, res) => {
     console.log("req.parms.id: ", req.params.id) 
     
     client.connect; 
+    let request = req.body;
     const collection = client.db("chillAppz").collection("drinkz");
-    let result = await collection.findOneAndUpdate( { _id: new ObjectId( req.params.id) }, {$set:{size:"new journal"}},{upsert:true})
+    let result = await collection.findOneAndUpdate( { _id: new ObjectId( req.params.id) }, {$set:{size:request.updsize}},{upsert:true})
     .then(result => {
       console.log(result); 
       res.redirect('/');

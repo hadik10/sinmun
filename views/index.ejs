@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sinmun</title>
+<html lang="html">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+  </head>
+  <body>
+    <header>
+      <h1>Sinmun Journal App</h1>
+    </header>
+    <div class="tab_container">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1"><span>Create New Journal Entry</span></label> 
+
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2"><span>View and Update past Journals</span></label>
+<section id="content1" class="tab-content">
+          <h2>Add New Journal Entry</h2>
+      <form method="POST" action="/addDrink">
+        <label for="drink_name">Journal Date</label>
+            <input name="drink_name" value="Enter Today's Date" type="date">
+        <br>
+        <label for="size">Journal Contents</label>
+          <textarea name="size"  rows= "3" cols= "50" placeholder="Add Today's Journal Contents"></textarea>
+        <br>
+        <label for="size">Pick Mood for Entry</label>
+        <div id= "moodselect">
+        <input name="pickmood" id="happy" value= "😃" type="radio" hidden>
+        <div class="moodbutton">
+        <label for="happy"><span>😃</span></label>
+        </div>
+        <input name="pickmood" id="mehh" value= "😐" type="radio" hidden>
+        <div class="moodbutton">
+        <label for="mehh"><span>     😐</span></label>
+        </div>
+        <input name="pickmood" id="sad" value= "😞" type="radio" hidden>
+        <div class="moodbutton">
+        <label for="sad"><span>      😞</span></label>
+         </div>
+        </div>
+        <br>
+        <br>
+        <input type="submit" value="Add Journal" />
+    </form>
+ </section>
+ <section id="content2" class="tab-content">
+    <h2>Update The Contents of a Journal Entry</h2>
+      <% for (var i=0; i< drinkData.length; i++ ) { %>
+      <div class="card">
+        <form method="POST" action="/updateDrink/<%= drinkData[i]._id %>" style="display: center"> 
+          <%= drinkData[i].drink_name %> 
+          <div class="card-body">
+          <%= drinkData[i].size %>
+          <br>
+          <%= drinkData[i].pickmood %>
+          </div>
+          <textarea name="updsize" id = "updsize" rows= "3" cols= "50" placeholder="Update Journal Contents"></textarea>
+          <br>
+          <div id= "moodselect">
+        <input name="pickupmood" id="uphappy" value= "😃" type="radio" hidden>
+        <div class="moodbutton">
+        <label for="uphappy"><span>😃</span></label>
+        </div>
+        <input name="pickupmood" id="upmehh" value= "😐" type="radio" hidden>
+        <div class="moodbutton">
+        <label for="upmehh"><span>😐</span></label>
+        </div>
+        <input name="pickupmood" id="upsad" value= "😞" type="radio" hidden>
+        <div class="moodbutton">
+        <label for="upsad"><span>😞</span></label>
+         </div>
+        </div>
+        <br>
+        <br>
+          <input type="submit" value="update"> 
+        </form>
+        <br/>
+      <% } %> 
+     </div>
+
+      
+            <h2>Past Journal Entries</h2>
+            <center>
+<div class="dropdown">
+      <button class="dropbtn">View</button>
+      <div class="dropdown-content">
+        <ul>
+          <% for (var i=0; i< drinkData.length; i++ ) { %>
+            <li>
+              <span style= "display:inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width:25ch;">
+                <%= drinkData[i].drink_name %>  <%= drinkData[i].size %>
+              </span>
+              <form method="POST" action="/deleteDrink/<%= drinkData[i]._id %>">
+                <button type="submit">Delete</button>
+              </form>
+            </li>
+            <% } %>
+        </ul>
+      </div>
+      </center>
+ </section>

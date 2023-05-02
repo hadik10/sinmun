@@ -11,9 +11,7 @@ Sinmun is a journal application that allows the user to take a small amount of t
  - Each journal entry will be at max 30 words or less. This means that it is a small summary of your day.<br>
  - You can make edits to journal entries as needed and can look back at your previous entries. <br>
 ## ❗ Explanation ❗
-Lets say you had a long day at work and you feel like making a note of how the wasvday, but you are tired and do not want to spend time writing in an actual journal entry about the day. In this case you just want to take note of high points. Sinmun allows you to do so and easily keep track of the journal incase you decide to look bak on on the day.
-
--Sinmun also offers a topic for the user to answer or gives them the chance to document a certain aspect of the day using its slider function
+Let's say you had a long day at work and you feel like making a note of how long the day was, but you are tired and do not want to spend the time writing a novel to explain it. In this case you just want to take note of high points. Sinmun allows you to do so and easily keep track of the journal incase you decide to look back on on the day.
 
 ## User Story 🧑‍🤝‍🧑
 ### As someone who does not have much time
@@ -22,9 +20,9 @@ Lets say you had a long day at work and you feel like making a note of how the w
 
 ## ⏰ Quick and easy Journaling ⏰
 What is the reason so many people don't keep a journal?<br>
-People say that the hardest part of keeping a journal is how it can be overwhelming and the second reason is always because it takes to much time.
-We created Sinmun to give keep people from being overwhelmed by shorteniing how much can be put into the journal to 30 words max.
-Then made it easy to keep track of your journaling and keep it from feeling to overwhelming.
-Using a simple layout that gets straight to the point<br> 
+1. People say that the hardest part of keeping a journal is how it can be overwhelming.
+2. Users have to dedicate too much time to maintain the journal on a daily basis.
+
+Sinmun was developed to help individuals avoid feeling overwhelmed by limiting journal entries to a max of 30 words. It also simplifies the process of journaling by providing a simple, easy to use layout that enables easy tracking of entries while getting directly to the point.<br> 
 
 ![Image](https://github.com/hadik10/sinmun/blob/main/imgs/sinmun.PNG?raw=true "Sinmun")

@@ -27,4 +27,4 @@ We created Sinmun to give keep people from being overwhelmed by shorteniing how 
 Then made it easy to keep track of your journaling and keep it from feeling to overwhelming.
 Using a simple layout that gets straight to the point<br> 
 
-![Image](/sinmun/imgs/sinmun.PNG?raw=true "Sinmun")
+![Image](https://github.com/hadik10/sinmun/blob/main/imgs/sinmun.PNG?raw=true "Sinmun")

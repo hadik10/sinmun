@@ -26,3 +26,5 @@ What is the reason so many people don't keep a journal?<br>
 Sinmun was developed to help individuals avoid feeling overwhelmed by limiting journal entries to a max of 30 words. It also simplifies the process of journaling by providing a simple, easy to use layout that enables easy tracking of entries while getting directly to the point.<br> 
 
 ![Image](https://github.com/hadik10/sinmun/blob/main/imgs/sinmun.PNG?raw=true "Sinmun")
+
+![Image2](https://github.com/hadik10/sinmun/blob/main/imgs/project.PNG?raw=true "Project")

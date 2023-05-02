@@ -16,7 +16,7 @@ section {
     float: left;
     padding: 1.6em;
     transition: background-color 0.2s ease;
-    font-size: 18px;
+    font-size: 24px;
 }
 .moodbutton:hover {
         background-color: #4983af;
